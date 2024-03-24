@@ -336,69 +336,6 @@ const updateHide=()=>{
       )}
 
 
-
-
-
-      {/* update  */}
-      {/* <div>
-        <form>
-        <div className="form-outline mb-4">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Id"
-              value={id}
-              onChange={(e) => setName(e.target.value)}
-            />
-          </div>
-          <div className="form-outline mb-4">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-          </div>
-          <div className="form-outline mb-4">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Age"
-              value={age}
-              onChange={(e) => setAge(e.target.value)}
-            />
-          </div>
-          <div className="form-outline mb-4">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="City"
-              value={city}
-              onChange={(e) => setCity(e.target.value)}
-            />
-          </div>
-          <div className="form-outline mb-4">
-            <input
-              type="email"
-              className="form-control"
-              placeholder="Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </div>
-
-          <button
-            style={{ width: 110 }}
-            type="button"
-            className="btn"
-            class="btn btn-dark btn-sm"
-            onClick={updateForm}
-          >
-            Submit
-          </button>
-        </form>
-      </div> */}
     </>
   );
 };
